@@ -2,8 +2,8 @@
 
 	include('conexao.php');
 	
-    // Insert registration info 
-    if(!empty($_POST)) { 
+	// Insert registration info 
+	if(!empty($_POST)) { 
 		try { 
 			$name = $_POST['nome']; 
 			$email = $_POST['email']; 
@@ -21,5 +21,5 @@
 		} 
 		echo "<script>alert('Cadastro feito com sucesso! Em breve você receberá em seu e-mail mais informações.')</script>";
 		echo "<script>window.open('cadastro.html','_self')</script>"; 
-    } 
+	} 
 ?>
