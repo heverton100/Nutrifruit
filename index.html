@@ -1,0 +1,121 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>NutriFruit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+	
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+    <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="application/javascript" src="js/fastclick.js"></script>
+    
+    <link rel="stylesheet" href="css/eco.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body style="background: linear-gradient(-45deg, #66cc99 0%, #339999 100%);">
+	<script type="text/javascript">
+        app.initialize();
+    </script>
+
+    <div class="wrapper">
+        <section id="support" class="doublediagonal">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+				<img src="img/eco/logo.png" class="logo" alt="Logo NutriFruit" style="width: 193px;">
+                    <div class="divider"></div>
+                </div>
+				
+				<p style="font-size: 25px;color: #b5ff02;text-align: center;">A Importância das Frutas</p>
+				<br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 scrollpoint sp-effect1">
+							
+                                <form id="logar" name="logar" method="post" action="home.html">
+									<input id="btnEntrar" type="submit" name="logar" value="Entrar" class="btn btn-primary btn-lg"  style="font-size: 25px;padding: 15px 25px; width: 100%;color: #ffffff;border-color: #ffffff;"/>
+									<br>
+									<br>
+                                </form>
+								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/placeholdem.min.js"></script>
+    <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            appMaster.preLoader();
+        });
+    </script>
+
+	<style>
+	*
+		{
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		}
+
+		input
+		{
+		-webkit-user-select: auto !important;
+		-khtml-user-select: auto !important;
+		-moz-user-select: auto !important;
+		-ms-user-select: auto !important;
+		user-select: auto !important;
+		}
+		
+	
+	</style>
+	<script>
+	if ('addEventListener' in document) {
+		document.addEventListener('DOMContentLoaded', function() {
+			FastClick.attach(document.body);
+		}, false);
+	}
+	</script>
+	
+</body>
+
+</html>
